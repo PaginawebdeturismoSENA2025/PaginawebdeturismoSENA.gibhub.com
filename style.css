@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #40e0d0;
+  /* turquesa */
+}
+
+header {
+  background-color: #006d77;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search-box {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.destino {
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destino img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.email-box {
+  background-color: #0097a7;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.email-box input[type="email"] {
+  padding: 0.5rem;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.email-box button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #004d40;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.email-box button:hover {
+  background-color: #00251a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.redes-sociales {
+  margin-top: 1rem;
+}
+
+.redes-sociales a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.redes-sociales a:hover {
+  color: #ffeb3b;
+}
+
+/* CSS */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
